@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plan | Choose Your Plan</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <div class="background-effects">
+        <div class="bubble bubble-one"></div>
+        <div class="bubble bubble-two"></div>
+        <div class="bubble bubble-three"></div>
+      </div>
+      <main class="pricing-container">
+        <header class="page-header">
+          <p class="tagline">SIMPLE & TRANSPARENT PRICING</p>
+          <h1>Choose The Perfect Plan</h1>
+          <p class="subtitle">
+            Flexible plans designed to help you grow.
+            Start small and upgrade whenever you need.
+          </p>
+        </header>
+        <div class="billing-toggle">
+          <span>Monthly</span>
+          <button id="billing-switch"
+                  class="toggle-button"
+                  type="button"
+                  aria-label="Switch to yearly billing"
+                  aria-pressed="false">
+              <span class="toggle-circle"></span>
+          </button>        
+          <span>Yearly</span>
+          <span class="save-label">Save 20%</span>
+        </div>
+        <section class="pricing-cards">
+          <article class="pricing-card">
+            <h2>Basic</h2>
+            <p class="plan-description">
+              Perfect for getting started.
+            </p>
+            <div class="price">
+              <span class="currency">₹</span>
+              <span class="amount"
+                    data-monthly="199"
+                    data-yearly="159">199
+              </span>
+              <span class="period">/month</span>
+            </div>
+            <button class="plan-button" type="button">
+              Get Started
+            </button>
+            <ul class="features">
+              <li>✓ 5 Projects</li>
+              <li>✓ Basic Analytics</li>
+              <li>✓ Email Support</li>
+              <li>✓ 5 GB Storage</li>
+            </ul>
+          </article>
+          <article class="pricing-card popular-card">
+            <div class="popular-ribbon">MOST POPULAR</div>
+            <h2>Professional</h2>
+            <p class="plan-description">
+              Great for growing businesses.
+            </p>
+            <div class="price">
+              <span class="currency">₹</span>
+              <span class="amount"
+                    data-monthly="499"
+                    data-yearly="399">499
+              </span>
+              <span class="period">/month</span>
+            </div>
+            <button class="plan-button" type="button">
+              Choose Professional
+            </button>
+            <ul class="features">
+                <li>✓ Unlimited Projects</li>
+                <li>✓ Advanced Analytics</li>
+                <li>✓ Priority Support</li>
+                <li>✓ 50 GB Storage</li>
+                <li>✓ Team collaboration</li>
+            </ul>
+          </article>
+           <article class="pricing-card">
+
+                <h2>Premium</h2>
+                <p class="plan-description">
+                    For advanced users and teams.
+                </p>
+
+                <div class="price">
+                    <span class="currency">₹</span>
+                    <span class="amount"
+                          data-monthly="999"
+                          data-yearly="799">999</span>
+                    <span class="period">/ month</span>
+                </div>
+
+                <button class="plan-button" type="button">
+                    Go Premium
+                </button>
+
+                <ul class="features">
+                    <li>✓ Everything in Professional</li>
+                    <li>✓ Custom Integrations</li>
+                    <li>✓ Dedicated Support</li>
+                    <li>✓ 200 GB Storage</li>
+                    <li>✓ Advanced Security</li>
+                </ul>
+            </article>
+        </section>
+        <footer class="page-footer">
+          <p>Simple pricing. Powerful possibilities.</p>
+        </footer>
+      </main>
+      <script src="script.js"></script>                                        
+  </body>
+</html>
